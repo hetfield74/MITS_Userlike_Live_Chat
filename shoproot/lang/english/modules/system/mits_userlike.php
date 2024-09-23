@@ -16,7 +16,7 @@ define('MODULE_MITS_USERLIKE_TITLE', 'MITS Userlike Live Chat <span style="white
 define('MODULE_MITS_USERLIKE_DESCRIPTION', '
    <div> 
     <a href="https://www.merz-it-service.de/" target="_blank">
-      <img src="' . xtc_href_link_admin(DIR_WS_IMAGES . 'merz-it-service.png') . '" border="0" alt="" style="display:block;max-width:100%;height:auto;" />
+      <img src="' . (ENABLE_SSL === true ? HTTPS_SERVER : HTTP_SERVER) . DIR_WS_CATALOG . DIR_WS_IMAGES . 'merz-it-service.png" border="0" alt="MerZ IT-SerVice" style="display:block;max-width:100%;height:auto;" />
     </a><br />
     <h3>Userlike Live Chat</h3>
     <div>    
